@@ -12,7 +12,7 @@ import com.mvnseltng.global.DriverSettings;
 public class Hooks {
 
 	protected WebDriver driver;
-	DriverSettings driverSettings;
+	private DriverSettings driverSettings;
 	private final String baseURL;
 	
 	public Hooks() throws IOException{
